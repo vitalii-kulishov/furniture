@@ -1,11 +1,12 @@
-body*{
+body *{
     margin: 0;
     padding: 0;
+    margin-block: 0;
 }
 li,ol{
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0
 }
 ul{
     padding-inline-start: 0px;
@@ -13,7 +14,17 @@ ul{
 button{
     padding: 0;
     cursor: pointer;
+    border: 0;
 }
 a{
     text-decoration: none;
 }
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+  }
